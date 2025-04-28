@@ -1,12 +1,12 @@
-import { Outlet } from 'react-router';
+import { Outlet, Link } from 'react-router';
 
 const Layout = () => {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="mx-auto min-h-screen flex flex-col">
       <header className="flex-none text-lg">
         Rose's App
         <nav>
-          {/* Add navigation items here later if needed */}
+          <Link to="/">Home</Link>
         </nav>
       </header>
 

@@ -1,12 +1,17 @@
-import React from 'react';
+export async function clientLoader() {
+  // you can now fetch data here
+  return {
+    title: "404 - Page Not Found",
+  };
+}
 
-const NotFound: React.FC = () => {
+export default function Component({ loaderData }: { loaderData: any }) {
   return (
-    <div>
-      <h1>404 - Page Not Found</h1>
-      <p>The page you are looking for does not exist.</p>
-    </div>
+    <>
+      <div>
+        <h1>{loaderData.title}</h1>
+        <p>The page you are looking for does not exist.</p>
+      </div>
+    </>
   );
-};
-
-export default NotFound; 
+}
