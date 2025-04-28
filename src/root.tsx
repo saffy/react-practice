@@ -1,3 +1,4 @@
+// https://reactrouter.com/explanation/special-files#roottsx
 import {
   Links,
   Meta,
@@ -5,7 +6,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from "react-router";
-import "./App.css";
+import "./root.css";
 
 export function Layout({
   children,
