@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Getting Started with React",
+      "content": "React is a powerful library for building user interfaces. In this post, we'll explore the basics...",
+      "author": "Jane Doe",
+      "date": "2024-03-15"
+    },
+    {
+      "id": 2,
+      "title": "Understanding TypeScript",
+      "content": "TypeScript adds static typing to JavaScript, making your code more robust and maintainable...",
+      "author": "John Smith",
+      "date": "2024-03-14"
+    },
+    {
+      "id": 3,
+      "title": "Web Development Best Practices",
+      "content": "Learn about the latest web development best practices that can help you build better applications...",
+      "author": "Alice Johnson",
+      "date": "2024-03-13"
+    }
+  ]
+}
